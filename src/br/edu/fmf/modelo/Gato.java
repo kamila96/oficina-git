@@ -8,4 +8,7 @@ public class Gato {
 	private int idade;
 
 	//métodos
+	public void correr(){
+		System.out.println("correndo");
+	}
 }
