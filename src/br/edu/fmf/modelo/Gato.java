@@ -1,5 +1,7 @@
 package br.edu.fmf.modelo;
 
+import javax.swing.JOptionPane;
+
 public class Gato {
 	
 	//atributos
@@ -8,4 +10,10 @@ public class Gato {
 	private int idade;
 
 	//métodos
+	public void comer(){
+		
+		JOptionPane.showMessageDialog(null, "alerta", "O gato esta dormindo", JOptionPane.ERROR_MESSAGE);
+	}
 }
+
+
